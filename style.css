@@ -18,15 +18,19 @@ body {
     color: #fff;
     padding-top: 20px;
     padding-bottom: 20px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .nav-item.logo {
     flex: 2;
     font-weight: 900;
+    font-size: 24px;
 }
 
 .nav-item {
-    padding: 15px 15px 15px 0px;
+    padding: 15px 40px 15px 0px;
+    font-size: 18px;
 }
 
 .hero.container {
@@ -34,8 +38,8 @@ body {
     display: flex;
     color: #fff;
     justify-content: space-between;
-    padding-top: 30px;
-    padding-bottom: 40px;
+    padding-top: 60px;
+    padding-bottom: 80px;
 }
 
 .hero-text {
@@ -44,6 +48,14 @@ body {
 
 .hero-text h2, .hero-text p {
     padding-bottom: 20px;
+}
+
+h2 {
+    font-size: 48px;
+}
+
+p {
+    font-size: 24px;
 }
 
 .hero > .placeholder {
@@ -71,8 +83,8 @@ button {
 
 .info {
     background-color: #fff;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .info>h2 {
@@ -107,8 +119,8 @@ button {
 }
 
 .qoute {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 90px;
+    padding-bottom: 8cqi;
     background-color: #e5e7eb;
 }
 
@@ -125,8 +137,8 @@ button {
 }
 
 .cta {
-    padding-bottom: 60px;
-    padding-top: 60px;
+    padding-bottom: 100px;
+    padding-top: 100px;
     text-align: center;
     color: #fff;
 }
